@@ -29,16 +29,43 @@ a:visited {
     color: rgb(0, 0, 0);
 }
 
+.bleach {
+    max-width:750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+@media (max-width:700px) {
+    .bleach {
+        text-align: center;
+        display: block;
+    }
+
+}
+
 .kirito {
     width: 200px;
     border-radius: 50%;
     box-shadow: 8px 8px 25px rgba(0, 0, 0, 25);
 }
- 
-.ichigo , .bankai02 {
+
+.bankai {
     display: flex;
     margin-bottom: 20px;
+
 }
+
+.bankai-text {
+    margin-left: 40px;
+
+}
+
+.bankai-text h4 {
+    margin-bottom: 10px;
+}
+ 
+
+
 
 /*.ichigo {
     background: gray;
@@ -141,3 +168,17 @@ a:visited {
     outline: none;
     font-family: inherit;
 }
+.dees {
+    background: #404144;
+    padding: 15px 20px;
+    color: rgb(255, 253, 253);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+
+}
+
+.dees:hover {
+    opacity: 0.9;
+}
+
